@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+
+body {
+  font-family: 'Droid Serif';
+  font-size: 0.9em;
+}
+
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code {
+    font-family: Inconsolata-dz, PragmataPro, Menlo;
+}
+.remark-code-line-highlighted { background-color: #e7e8e2; }
+
+li p { line-height: 1.25em; }
+
+a, a > code {
+  color: lightblue;
+  text-decoration: none;
+  }
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
+code {
+  background: #e7e8e2;
+  padding: 0px 5px 2px 5px;
+  border-radius: 3px;
+  color: #1d57af;
+  font-size: 0.7em;
+
+  /*width: 90%*/
+}
+.pull-left {
+    float: left;
+    width: 47%;
+}
+.pull-right {
+    float: right;
+    width: 47%;
+}
+.pull-right ~ p { clear: both; }
+
+.red { color: rgb(249, 38, 114); }
+.large { font-size: 2em; }
+.small { font-size: 0.5em; }
+.caption {
+    font-size: 0.5em;
+    color: grey;
+}
+
+.underscore { font-size: 180%; }
+.underscore a { text-decoration: none; }
+.underscore h1 { text-align: center; }
+
+.title > h1 {
+  font-size: 300%;
+}
+
+.title > h2  {
+  margin-top: -5%;
+  font-size: 100%;
+}
+
+.title img {
+  margin-bottom: -20%;
+}
+
+ol {
+  margin: 70px;
+  padding: 0;
+  line-height: 50px;
+  /*text-align: center;*/
+  /*list-style-type: none;*/
+}
+
+ul {
+   line-height: 45px;
+}
+
+blockquote {
+  font-size: 100%;
+}
+
+.wide {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  font-weight: lighter;
+  padding: 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 2pt solid silver;
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+}
+
+td,th {
+  padding: .5em;
+  border: 1pt solid silver;
+  font-weight: normal;
+}
+
+th {
+  background-color: #3E505D;
+  color: white;
+}
+
+html.default-theme .underscore {
+  background: #fff;
+}
+
+html.default-theme .hero {
+  background-color: #2ca9df;
+  background-image: url(img/hero-left-overlay-color.svg);
+  color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html.default-theme .hero a {
+  color: #fff;
+}
+
+html.black-theme .underscore {
+  background: #000;
+  color: #fff;
+}
+
+html.black-theme .hero {
+  background: #000;
+  background-image: url(img/hero-left-overlay-white.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html.black-theme .hero a {
+  color: #fff;
+}
+
+html.dark-blue-theme .underscore {
+  background: #0e2c3c;
+  color: #fff;
+}
+
+html.dark-blue-theme .hero {
+  background-image: url(img/hero-left-overlay-white.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html.dark-blue-theme .hero a {
+  color: #fff;
+}
