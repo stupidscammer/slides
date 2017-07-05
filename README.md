@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Collection of slides from given lectures
 
-You can use the [editor on GitHub](https://github.com/aboucaud/slides/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Python
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Writing proper classes [slides][pyt-cls]
+- Documenting Python code [slides][pyt-doc]
 
-### Markdown
+- Scientific Python [cheatsheet][pyt-csh]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Git
 
-```markdown
-Syntax highlighted code block
+- Git beginner tutorial [slides][git-bas]
+- Git collaborative workflow [slides][git-adv]
 
-# Header 1
-## Header 2
-### Header 3
+### Continous-integration
 
-- Bulleted
-- List
+- Setting up Continuous Integration with Gitlab-ci [slides][gitl-ci]
 
-1. Numbered
-2. List
+---
 
-**Bold** and _Italic_ and `Code` text
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />These presentations are licensed under a  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aboucaud/slides/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[pyt-cls]: https://aboucaud.github.io/slides/2016/python-classes
+[pyt-doc]: https://aboucaud.github.io/slides/2016/python-docstrings
+[pyt-csh]: https://aboucaud.github.io/slides/2016/python-cheatsheet
+[git-bas]: https://aboucaud.github.io/slides/2017/git-tutorial
+[git-adv]: https://aboucaud.github.io/slides/2017/git-advanced
+[gitl-ci]: https://aboucaud.github.io/slides/2017/gitlab-ci
