@@ -2,19 +2,18 @@
 
 ### Python
 
-- Writing proper classes [slides][pyt-cls]
-- Documenting Python code [slides][pyt-doc]
-
+- [Writing proper classes][pyt-cls]
+- [Documenting Python code][pyt-doc]
 - Scientific Python [cheatsheet][pyt-csh]
 
 ### Git
 
-- Git beginner tutorial [slides][git-bas]
-- Git collaborative workflow [slides][git-adv]
+- [Git beginner tutorial][git-bas]
+- [Git collaborative workflow][git-adv]
 
 ### Continous-integration
 
-- Setting up Continuous Integration with Gitlab-ci [slides][gitl-ci]
+- [Setting up Continuous Integration with Gitlab-ci][gitl-ci]
 
 ---
 
