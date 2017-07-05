@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="reveal.js/css/reveal.css">
-<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="../css/reveal.css">
+<link rel="stylesheet" href="../css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,7 +24,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'reveal.js/css/print/pdf.css';
+        link.href = '../css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
@@ -8510,15 +8510,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -11268,7 +11268,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -11703,7 +11703,7 @@ ul.typeahead-list > li > a {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -11892,7 +11892,7 @@ a.anchor-link {
             frameborder="0"
             allowfullscreen
         ></iframe>
-        
+
 </div>
 
 </div>
@@ -11983,9 +11983,9 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.1b&#39;</span>                      <span class="c1"># class variable</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>  <span class="c1"># instance variables</span>
 </pre></div>
@@ -12023,12 +12023,12 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
-    <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.1&#39;</span> 
-    
+
+    <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.1&#39;</span>
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span> 
-        
+        <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
@@ -12141,16 +12141,16 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.2&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-        
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -12221,7 +12221,7 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="n">Array</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Frame object inherited from Array&quot;&quot;&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the frame&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">Array</span><span class="o">.</span><span class="n">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span>
@@ -12397,22 +12397,22 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.3b&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-    
+
     <span class="nd">@classmethod</span>                   <span class="c1"># classmethod decorator</span>
     <span class="k">def</span> <span class="nf">from_fits</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>  <span class="c1"># cls is the first argument in a classmethod</span>
         <span class="sd">&quot;&quot;&quot;Construct an Array from a FITS image&quot;&quot;&quot;</span>
         <span class="n">array</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">getdata</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">Array</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>           
-    
+        <span class="k">return</span> <span class="n">Array</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -12508,7 +12508,7 @@ It has a perimeter of 56 pixels and an area of 192 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="n">Array</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Frame object inherited from Array&quot;&quot;&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the frame&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">Array</span><span class="o">.</span><span class="n">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span>
@@ -12581,22 +12581,22 @@ Its frame has a perimeter of 56 pixels and an area of 192 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.3&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-    
-    <span class="nd">@classmethod</span>                  
-    <span class="k">def</span> <span class="nf">from_fits</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>  
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">from_fits</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Construct an Array from a FITS image&quot;&quot;&quot;</span>
         <span class="n">array</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">getdata</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>  <span class="c1"># cls is returned to preserve inheritance       </span>
-    
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -12623,7 +12623,7 @@ Its frame has a perimeter of 56 pixels and an area of 192 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="n">Array</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Frame object inherited from Array&quot;&quot;&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the frame&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">Array</span><span class="o">.</span><span class="n">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span>
@@ -12747,22 +12747,22 @@ Its frame has a perimeter of 64 pixels and an area of 192 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.4b&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-        
-    <span class="nd">@classmethod</span>           
+
+    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_fits</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Construct an Array from a FITS image&quot;&quot;&quot;</span>
         <span class="n">array</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">getdata</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>        
-        
+        <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -12795,22 +12795,22 @@ Its frame has a perimeter of 64 pixels and an area of 192 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.4&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-        
-    <span class="nd">@classmethod</span>           
+
+    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_fits</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Construct an Array from a FITS image&quot;&quot;&quot;</span>
         <span class="n">array</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">getdata</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>        
-        
+        <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -12933,7 +12933,7 @@ which corresponds to an angle on the sky of 1.8 x 2.4 sq.arcseconds
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Test</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Test class&quot;&quot;&quot;</span>
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.1&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;String representation of Test class&quot;</span>
 </pre></div>
@@ -13034,10 +13034,10 @@ which corresponds to an angle on the sky of 1.8 x 2.4 sq.arcseconds
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Test</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Test class&quot;&quot;&quot;</span>
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.2&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;String representation of Test class&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;Alternate string representation of Test class&quot;</span>
 </pre></div>
@@ -13128,26 +13128,26 @@ which corresponds to an angle on the sky of 1.8 x 2.4 sq.arcseconds
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.5&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-        
+
     <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;String representation of the class&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="s2">&quot;{0} of shape ({1}x{2})&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__class__</span><span class="o">.</span><span class="n">__name__</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span><span class="p">)</span>
-        
-    <span class="nd">@classmethod</span>           
+
+    <span class="nd">@classmethod</span>
     <span class="k">def</span> <span class="nf">from_fits</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">filename</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Construct an Array from a FITS image&quot;&quot;&quot;</span>
         <span class="n">array</span> <span class="o">=</span> <span class="n">pyfits</span><span class="o">.</span><span class="n">getdata</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>        
-        
+        <span class="k">return</span> <span class="n">cls</span><span class="p">(</span><span class="n">array</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -13282,7 +13282,7 @@ which corresponds to an angle on the sky of 1.8 x 2.4 sq.arcseconds
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="n">Array</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Frame object inherited from Array&quot;&quot;&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the frame&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">Array</span><span class="o">.</span><span class="n">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span>
@@ -13376,32 +13376,32 @@ Frame of shape (12x21)
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.6&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">shape</span><span class="p">)</span>
-    
+
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">size_x</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    
+
     <span class="nd">@size_x.setter</span>
     <span class="k">def</span> <span class="nf">size_x</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">size</span>
-        
+
     <span class="nd">@property</span>
     <span class="k">def</span> <span class="nf">size_y</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    
+
     <span class="nd">@size_y.setter</span>
     <span class="k">def</span> <span class="nf">size_y</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">size</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">size</span>
-    
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -13558,18 +13558,18 @@ Shape = [12, 21]
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.7b&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-             
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="n">p</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">perimeter</span><span class="p">()</span>
         <span class="n">size_y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">p</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
@@ -13597,7 +13597,7 @@ Shape = [12, 21]
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="n">Array</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Frame object inherited from Array&quot;&quot;&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the frame&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">Array</span><span class="o">.</span><span class="n">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span>
@@ -13687,22 +13687,22 @@ Frame area: 336 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Array</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Array toolkit&quot;&quot;&quot;</span>
-    
+
     <span class="n">version</span> <span class="o">=</span> <span class="s1">&#39;0.7&#39;</span>
-    
+
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">=</span> <span class="n">shape</span>
-             
+
     <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Pixel area of the array&quot;&quot;&quot;</span>
         <span class="n">p</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">__perimeter</span><span class="p">()</span>
         <span class="n">size_y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">p</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">*</span> <span class="n">size_y</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the array&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">size_x</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">size_y</span><span class="p">)</span>
-    
+
     <span class="n">__perimeter</span> <span class="o">=</span> <span class="n">perimeter</span>
 </pre></div>
 
@@ -13726,7 +13726,7 @@ Frame area: 336 sq.pix
 <div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">methods</span> <span class="o">=</span> <span class="p">[</span><span class="n">method</span> 
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">methods</span> <span class="o">=</span> <span class="p">[</span><span class="n">method</span>
            <span class="k">for</span> <span class="n">method</span> <span class="ow">in</span> <span class="n">Array</span><span class="o">.</span><span class="n">__dict__</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
            <span class="k">if</span> <span class="ow">not</span> <span class="n">method</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s1">&#39;__&#39;</span><span class="p">)]</span>
 <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Array method dictionary : {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">methods</span><span class="p">))</span>
@@ -13768,7 +13768,7 @@ Frame area: 336 sq.pix
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">class</span> <span class="nc">Frame</span><span class="p">(</span><span class="n">Array</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;Frame object inherited from Array&quot;&quot;&quot;</span>
-    
+
     <span class="k">def</span> <span class="nf">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Circumference of the frame&quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="n">Array</span><span class="o">.</span><span class="n">perimeter</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">+</span> <span class="mi">8</span>
@@ -13871,8 +13871,8 @@ require(
       waitSeconds: 15
     },
     [
-      "reveal.js/lib/js/head.min.js",
-      "reveal.js/js/reveal.js"
+      "../lib/js/head.min.js",
+      "../js/reveal.js"
     ],
 
     function(head, Reveal){
@@ -13888,9 +13888,9 @@ require(
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "reveal.js/lib/js/classList.js",
+                { src: "../lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "reveal.js/plugin/notes/notes.js",
+                { src: "../plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
