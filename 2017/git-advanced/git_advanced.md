@@ -9,7 +9,7 @@ class: center, middle, hero
   ## Alexandre Boucaud
 ]
 
-.bottom[.small[http://www.ias.u-psud.fr/aboucaud/git-collab.html]]
+.bottom[.small[https://aboucaud.github.io/slides/2017/git-advanced]]
 
 ???
 
@@ -35,7 +35,7 @@ Notions to be familiar with.red[*]
 
 .footnote[.red[*] otherwise check out the [beginners tutorial][gitbeg]]
 
-[gitbeg]: http://www.ias.u-psud.fr/pperso/aboucaud/git/git-tutorial-slides.html
+[gitbeg]: https://aboucaud.github.io/slides/2017/git-tutorial
 
 ---
 
