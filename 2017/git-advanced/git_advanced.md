@@ -227,60 +227,11 @@ class: center, middle
 # 2. Continuous integration (CI)
 
 ---
+class: center, middle, hero
 
-## GitLab setup
+see [this presentation][gitcipres]
 
-* go to https://git.ias.u-psud.fr/
-
-.center[<img src="img/gitlab_signin.png" width="80%" alt="gitlab" >]
-
-* authenticate with LDAP to create your account
----
-
-## Motivations
-
-
----
-
-## GitLab CI
-
-Continuous integration is fully integrated to GitLab
-
-[Documentation](http://docs.gitlab.com/ee/ci/)
-[Quick start guide](https://docs.gitlab.com/ce/ci/quick_start/)
-
----
-
-## `.gitlab-ci.yml`
-
-
-
-## Custom build image
-
-```Dockerfile
-*FROM debian:stretch
-
-MAINTAINER Alexandre Beelen <alexandre.beelen@ias.u-psud.fr>
-
-RUN apt-get update && \
-    apt-get install -y tox \
-*        python2.7 \
-        python-pip python-pytest-cov python-coverage \
-        python-numpy python-matplotlib \
-        python-astropy python-photutils python-healpy python-wcsaxes \
-*        python3.5 \
-        python3-pip python3-pytest-cov python3-coverage \
-        python3-numpy python3-matplotlib \
-        python3-astropy python3-photutils python3-healpy python3-wcsaxes
-```
-
----
-name: tips
-class: center, middle
-
-# 6. Wrap up and tips
-
----
+[gitcipres]: https://aboucaud.github.io/slides/2017/gitlab-ci
 
 ---
 
