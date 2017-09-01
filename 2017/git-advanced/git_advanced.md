@@ -316,5 +316,5 @@ class: center, middle, hero
 [![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)][cc]
 ]
 
-[abcd]: mailto:alexandre.boucaud@ias.u-psud.fr
+[abcd]: mailto:aboucaud@lal.in2p3.fr
 [cc]: http://creativecommons.org/licenses/by-sa/4.0
