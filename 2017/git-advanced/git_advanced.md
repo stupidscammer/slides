@@ -227,9 +227,9 @@ class: center, middle
 # 2. Continuous integration (CI)
 
 ---
-class: center, middle, hero
+class: center, middle
 
-see [this presentation][gitcipres]
+see dedicated presentation [here][gitcipres]
 
 [gitcipres]: https://aboucaud.github.io/slides/2017/gitlab-ci
 
