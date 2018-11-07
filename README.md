@@ -31,4 +31,4 @@
 [git-bas]: https://aboucaud.github.io/slides/2017/git-tutorial
 [git-adv]: https://aboucaud.github.io/slides/2017/git-advanced
 [gitl-ci]: https://aboucaud.github.io/slides/2017/gitlab-ci
-[kerasdl]: https://aboucaud.github.io/slides/2018/hands-on-deep-learning
+[kerasdl]: https://aboucaud.github.io/slides/2018/hands-on-deep-learning/
