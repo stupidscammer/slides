@@ -54,6 +54,12 @@ a:visited {
   color: #1f7ab8cb;
 }
 
+.bottomlogo {
+  position: absolute;
+  bottom: 2em;
+  left: 3em;
+  max-height: 100px;
+}
 
 .footnote {
     font-size: 80%;

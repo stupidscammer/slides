@@ -2,7 +2,8 @@ class: middle
 background-image: url(img/brain.png)
 
 # Hands on .red[deep learning]
-<img src="img/logosimpleCC.jpg" width='150' style="float: left">
+#### CCIN2P3 GPU workshop - Apr 2019
+.bottomlogo[<img src="img/logosimpleCC.jpg" width='150' style="float: left">]
 
 .footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
 
@@ -20,7 +21,7 @@ background-image: url(img/brain.png)
 ---
 ## Alexandre Boucaud <img src="https://aboucaud.github.io/img/profile.png" class="circle-image" alt="Alexandre Boucaud" style="float: right">
 
-Scientific software engineer at APC
+Scientific software engineer at APC, CNRS
 
 <!-- [aboucaud @ apc.in2p3.fr][mail]   -->
 <!-- [@alxbcd][twitter] on twitter -->
@@ -31,6 +32,7 @@ Scientific software engineer at APC
 - ML applications in astrophysics (galaxy morphology, deblending)
 - development of the open source Python scientific ecosystem
 
+</br>
 Disclaimer: I am .red[not] a machine learning researcher  
 <img src="http://www.apc.univ-paris7.fr/APC_CS/sites/default/files/logo-apc.png" height="120px" alt="Astroparticule et Cosmologie" style="float: right">
 
@@ -1429,43 +1431,38 @@ Here are some leads (random order) to explore if your model do not converge:
 - [various regularisation techniques](https://machinelearningmastery.com/how-to-reduce-overfitting-in-deep-learning-with-weight-regularization/)
 
 ---
-class: center
-.hidden[a]
 ## Next ?
 
-### ML developments are happening at a high pace <br/>.red[stay tuned] !
+.medium[ML developments are happening at a high pace,  
+.red[stay tuned] !  
 
-.hidden[a]
-## References
-
-.middle[### A curated list of inspirations for this presentation can be found [here][refs].]
+A .green[curated list] of inspirations for this presentation  
+can be found [here][refs].
+]
 
 [refs]: https://github.com/aboucaud/slides/blob/master/2018/hands-on-deep-learning/references.md
 
 ---
-exclude: true
-class: center, middle
-<!-- background-image: url(img/thankyou.gif) -->
-.center[
-<img src="img/thankyou.gif" style="width: 700px;" />
-]
-
----
-exclude: true
 class: center, middle
 
-<img src="img/friendship_algorithm.PNG" />
-
-.medium[but keep in mind that .red[not everything] is differentiable..]
-
----
-class: center, middle
-
-## Thank you
-
+# Thank .red[you]
+</br>
+</br>
 .medium[Contact info:]  
 [aboucaud.github.io][website]  
 @aboucaud on GitHub, GitLab  
 [@alxbcd][twitter] on Twitter
 
 [website]: https://aboucaud.github.io
+</br>
+</br>
+</br>
+</br>
+.small[
+  This presentation is licensed under a   
+  [Creative Commons Attribution-ShareAlike 4.0 International License][cc]
+]
+
+[![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)][cc]
+
+[cc]: http://creativecommons.org/licenses/by-sa/4.0
