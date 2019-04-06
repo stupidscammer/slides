@@ -26,7 +26,7 @@ name: infos
 * [annonce][loopspage] et [inscription][indico]
 
 [loopspage]: https://reseau-loops.github.io/journee_2017_03_IntegrationContinue.html
-[indico]: https://indico.lal.in2p3.fr/event/3445/
+[indico]: https://indico.apc.in2p3.fr/event/3445/
 [proto]: http://proto204.co/#contact_us
 
 ---
@@ -363,5 +363,5 @@ class: center, middle, hero
 [![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)][cc]
 ]
 
-[abcd]: mailto:aboucaud@lal.in2p3.fr
+[abcd]: mailto:aboucaud@apc.in2p3.fr
 [cc]: http://creativecommons.org/licenses/by-sa/4.0
