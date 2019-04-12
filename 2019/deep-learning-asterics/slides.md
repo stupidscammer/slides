@@ -44,6 +44,29 @@ name: intro
 background-image: url(img/news.png)
 
 ---
+exclude: true
+background-image: url(img/new_cool.png)
+
+---
+exclude: true
+class: middle, center
+background-image: url(img/xkcd_2135-m87.png)
+
+
+.footnote[[XKCD](https://xkcd.com/2135/)]
+
+---
+exclude: true
+class: middle, center
+
+.center[<iframe width="640" height="360" src="https://www.youtube.com/embed/zUyH3XhpLTo" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>]
+
+.footnote[
+  [CNRS news on the detection](https://news.cnrs.fr/articles/this-is-the-first-ever-image-of-a-black-hole)
+]
+
+
+---
 <!-- class: center, middle -->
 ## deep learning vs. physics arXiv
 <img src="img/arxiv-2019-04.png" , width="800px" / >
@@ -539,15 +562,65 @@ __________________________________________________
 class: center, middle
 
 # EXERCICE
-.medium[on your own time, .red[write down the model] for the following architecture ]
+.medium[write down .red[the model] for the following architecture ]
 
 <img src="img/cnn_overview2.png", width="700px", vspace="30px", hspace="0px"/>
 
 .medium[how many .red[free parameters] does this architecture have ?]
 
 ---
-exclude: true
-# SOLUTION #1
+count: false
+<!-- exclude: true -->
+# SOLUTION
+
+.left-column[
+
+```python
+from keras.models import Sequential
+from keras.layers import Conv2D
+from keras.layers import MaxPool2D
+from keras.layers import Flatten
+from keras.layers import Dense
+
+```
+]
+
+.right-column[
+
+]
+
+---
+count: false
+<!-- exclude: true -->
+# SOLUTION
+
+.left-column[
+
+```python
+from keras.models import Sequential
+from keras.layers import Conv2D
+from keras.layers import MaxPool2D
+from keras.layers import Flatten
+from keras.layers import Dense
+
+model = Sequential()
+
+model.add(Conv2D(10, (5, 5), 
+          input_shape=(32, 32, 1)))
+model.add(MaxPool2D((2, 2)))
+model.add(Conv2D(25, (5, 5)))
+model.add(MaxPool2D((2, 2)))
+model.add(Conv2D(100, (4, 4)))
+model.add(MaxPool2D((2, 2)))
+model.add(Flatten())
+model.add(Dense(10))
+
+```
+]
+---
+count: false
+<!-- exclude: true -->
+# SOLUTION
 
 .left-column[
 
@@ -571,7 +644,8 @@ model.add(Flatten())
 model.add(Dense(10))
 
 model.summary()
-```]
+```
+]
 
 .right-column[
 ```
@@ -594,7 +668,7 @@ model.summary()
  ___________________________________________
   Dense        (None, 10)            1010
  ===========================================
-  Total params: 47,645
+*  Total params: 47,645
   Trainable params: 47,645
   Non-trainable params: 0
  ___________________________________________
@@ -602,12 +676,39 @@ model.summary()
 ]
 
 ---
-exclude: true
-# SOLUTION #2
+count: false
+# ALTERNATE API SOLUTION
 
 .left-column[
-
 ```python
+# SEQUENTIAL API
+
+from keras.models import Sequential
+from keras.layers import Conv2D
+from keras.layers import MaxPool2D
+from keras.layers import Flatten
+from keras.layers import Dense
+
+model = Sequential()
+
+model.add(Conv2D(10, (5, 5), 
+          input_shape=(32, 32, 1)))
+model.add(MaxPool2D((2, 2)))
+model.add(Conv2D(25, (5, 5)))
+model.add(MaxPool2D((2, 2)))
+model.add(Conv2D(100, (4, 4)))
+model.add(MaxPool2D((2, 2)))
+model.add(Flatten())
+model.add(Dense(10))
+
+model.summary()
+```
+]
+
+.right-column[
+```python
+# GENERIC API
+
 from keras.models import Model
 from keras.layers import Input
 from keras.layers import Conv2D
@@ -627,36 +728,8 @@ output = Dense(10)(x)
 
 model = Model(input, output)
 model.summary()
-```]
-
-.right-column[
-```
- ___________________________________________
-  Layer        Output Shape          Param #
- ===========================================
-  Conv2D       (None, 28, 28, 10)    260
- ___________________________________________
-  MaxPool2D    (None, 14, 14, 10)    0
- ___________________________________________
-  Conv2D       (None, 10, 10, 25)    6275
- ___________________________________________
-  MaxPool2D    (None, 5, 5, 25)      0
- ___________________________________________
-  Conv2D       (None, 2, 2, 100)     40100
- ___________________________________________
-  MaxPool2D    (None, 1, 1, 100)     0
- ___________________________________________
-  Flatten      (None, 100)           0
- ___________________________________________
-  Dense        (None, 10)            1010
- ===========================================
-  Total params: 47,645
-  Trainable params: 47,645
-  Non-trainable params: 0
- ___________________________________________
 ```
 ]
-
 ---
 ## Loss and optimizer
 
@@ -722,28 +795,6 @@ model.fit(X_train, y_train,
   model.load_weights('weights.h5')  # instead of model.fit()
   ```
 - EarlyStopping saves the planet.
-
-
----
-class: center, middle
-name: architecture
-
-# Common .red[architectures]
-
----
-## Zoo of neural networks #1
-.singleimg[![](img/nnzoo1.png)]
-
-.footnote[[Neural network zoo][nnzoo] - Fjodor van Veen (2016)]
-
----
-## Zoo of neural networks #2
-
-.singleimg[![](img/nnzoo2.png)]
-
-.footnote[[Neural network zoo][nnzoo] - Fjodor van Veen (2016)]
-
-[nnzoo]: http://www.asimovinstitute.org/neural-network-zoo/
 
 ---
 class: center, middle

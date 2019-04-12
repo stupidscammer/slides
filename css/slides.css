@@ -70,11 +70,11 @@ a:visited {
 }
 
 .left-column {
-  width: 50%;
+  width: 49%;
   float: left;
 }
 .right-column {
-  width: 50%;
+  width: 49%;
   float: right;
 }
 .reset-column {
