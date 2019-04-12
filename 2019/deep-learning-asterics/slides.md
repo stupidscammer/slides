@@ -389,7 +389,8 @@ model.add(
            (3, 3),   # kernel size
            strides=1,       # default
            padding='valid', # default
-           input_shape=(32, 32, 3)))
+           input_shape=(32, 32, 3))
+)
 # Next layers don't
 model.add(Conv2D(16, (3, 3) strides=2))
 model.add(Conv2D(32, (3, 3)))
@@ -421,7 +422,8 @@ model.add(
     Conv2D(1, (3, 3), 
            strides=1,        # default
            padding='valid',  # default
-           input_shape=(7, 7, 1)))
+           input_shape=(7, 7, 1))
+)
 model.summary()
 ```
 
@@ -452,10 +454,12 @@ from keras.models import Sequential
 from keras.layers import Conv2D
 
 model = Sequential()
-model.add(Conv2D(1, (3, 3), 
-*                strides=2, 
-                 padding='same', 
-                 input_shape=(5, 5, 1)))
+model.add(
+    Conv2D(1, (3, 3), 
+*          strides=2, 
+           padding='same', 
+           input_shape=(5, 5, 1))
+)
 model.summary()
 ```
 
@@ -486,9 +490,11 @@ from keras.models import Sequential
 from keras.layers import Conv2D
 
 model = Sequential()
-model.add(Conv2D(1, (3, 3), 
-*                activation='relu'
-                 input_shape=(5, 5, 1)))
+model.add(
+    Conv2D(1, (3, 3), 
+*        activation='relu'
+         input_shape=(5, 5, 1))
+)
 ```
 ]
 
@@ -532,11 +538,15 @@ from keras.layers import Conv2D
 from keras.layers import MaxPool2D
 
 model = Sequential()
-model.add(Conv2D(1, (3, 3), 
-                 strides=1, 
-                 padding='same', 
-                 input_shape=(8, 8, 1)))
-model.add(MaxPool2D(((2, 2))))
+model.add(
+    Conv2D(1, (3, 3), 
+           strides=1, 
+           padding='same', 
+           input_shape=(8, 8, 1))
+)
+model.add(
+    MaxPool2D((2, 2))
+)
 model.summary()
 ```
 
@@ -576,6 +586,8 @@ count: false
 .left-column[
 
 ```python
+# SEQUENTIAL API
+
 from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import MaxPool2D
@@ -597,6 +609,8 @@ count: false
 .left-column[
 
 ```python
+# SEQUENTIAL API
+
 from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import MaxPool2D
@@ -625,6 +639,8 @@ count: false
 .left-column[
 
 ```python
+# SEQUENTIAL API
+
 from keras.models import Sequential
 from keras.layers import Conv2D
 from keras.layers import MaxPool2D

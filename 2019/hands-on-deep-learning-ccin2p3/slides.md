@@ -981,7 +981,7 @@ model.add(Conv2D(1, (3, 3),
                  strides=1, 
                  padding='same', 
                  input_shape=(8, 8, 1)))
-model.add(MaxPool2D(((2, 2))))
+model.add(MaxPool2D((2, 2)))
 model.summary()
 ```
 
