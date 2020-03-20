@@ -2,7 +2,7 @@ class: middle
 background-image: url(img/brain.png)
 
 # Hands on .red[deep learning]
-#### UE MML - 13 mars 2020
+#### UE MML - 20 mars 2020
 
 .footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
 
