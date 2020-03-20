@@ -17,6 +17,7 @@ background-image: url(img/brain.png)
 .footnote[Alexandre Boucaud  -  [@alxbcd][twitter]]
 
 ---
+exclude: true
 <!-- class: center, middle -->
 ## deep learning vs. physics arXiv
 <img src="img/arxiv-2019-04.png" , width="800px" / >
