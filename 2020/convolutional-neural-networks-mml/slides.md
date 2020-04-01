@@ -502,8 +502,7 @@ class: center, middle
 .medium[how many .red[free parameters] does this architecture have ?]
 
 ---
-exclude: true
-# SOLUTION #1
+# SOLUTION
 
 .left-column[
 
@@ -558,8 +557,7 @@ model.summary()
 ]
 
 ---
-exclude: true
-# SOLUTION #2
+# SOLUTION (bis)
 
 .left-column[
 
