@@ -2,7 +2,7 @@ class: middle
 background-image: url(img/brain.png)
 
 # Hands on .red[neural networks]
-#### MML - Cours 08
+<!-- #### MML - Cours 08 -->
 
 <!-- .bottomlogo[<img src="img/asterics_log.png" width='250px'>] -->
 
@@ -10,7 +10,6 @@ background-image: url(img/brain.png)
 
 [twitter]: https://twitter.com/alxbcd
 ---
-exclude: true
 class: middle
 background-image: url(img/brain.png)
 .hidden[aa]
@@ -647,6 +646,7 @@ class: center, middle
 [cc]: http://creativecommons.org/licenses/by-sa/4.0
 
 ---
+exclude: true
 class: center, middle
 
 La semaine prochaine :

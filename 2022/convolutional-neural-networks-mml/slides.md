@@ -2,13 +2,13 @@ class: middle
 background-image: url(img/brain.png)
 
 # Hands on .red[deep learning]
-#### MML - Cours 09
+<!-- #### MML - Cours 09 -->
 
 .footnote[ Alexandre Boucaud  -  [@alxbcd][twitter]]
 
 [twitter]: https://twitter.com/alxbcd
 ---
-exclude: true
+<!-- exclude: true -->
 class: middle
 background-image: url(img/brain.png)
 .hidden[aa]
@@ -938,6 +938,7 @@ can be found [here][refs].
 [refs]: https://github.com/aboucaud/slides/blob/master/2018/hands-on-deep-learning/references.md
 
 ---
+exclude: true
 class: center, middle
 
 La semaine prochaine :
