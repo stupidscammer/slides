@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Introduction to Machine Learning</title>
+  <meta name="author" content="Alexandre Boucaud">
+  <meta name="description" content="Introduction to machine learning – Euclid Summer School 2022">
+  <link rel="stylesheet" type="text/css" href="../../css/slides.css">
+</head>
+<body>
+  <style TYPE="text/css">
+    code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+  </style>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+    });
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+  <script type="text/javascript" src="../../js/remark-latest.min.js"></script>
+  <script type="text/javascript">
+    var slideshow = remark.create({
+      sourceUrl: 'slides.md',
+      // Set the slideshow display ratio
+      // Default: '4:3'
+      // Alternatives: '16:9', ...
+      ratio: '4:3',
+      //ratio: '16:9',
+      // Navigation options
+      navigation: {
+        // Enable or disable navigating using scroll
+        scroll: false,
+        // Enable or disable navigation using touch
+        touch: true,
+        // Enable or disable navigation using click
+        click: false,
+      },
+      // Customize slide number label, either using a format string..
+      // slideNumberFormat: 'Slide %current% of %total%',
+      // .. or by using a format function
+      // slideNumberFormat: function (current, total) {
+        // return 'Slide ' + current + ' of ' + total;
+      // },
+      slideNumberFormat: '%current%/%total%',
+      // Enable or disable counting of incremental slides in the slide counting
+      countIncrementalSlides: false,
+      // https://github.com/gnab/remark/wiki/Configuration#highlighting
+      // highlightLanguage: 'python',
+      //arta, ascetic, dark, default, far, github, googlecode, idea, ir-black, magula, monokai, rainbow, solarized-dark, solarized-light, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eighties, vs, zenburn
+      highlightStyle: 'zenburn',
+      // highlightStyle: 'tomorrow-night',
+      highlightLines: true,
+      highlightSpans: true,
+    });
+  </script>
+</body>
+</html>
