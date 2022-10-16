@@ -46,6 +46,13 @@ Ingénieur de recherche at APC, CNRS
 [mail]: mailto:aboucaud@apc.in2p3.fr
 [twitter]: https://twitter.com/alxbcd
 
+---
+exclude: true
+# PDF animation replacement
+
+.middle.center[<br><br><br><br>Animation .red[skipped] in PDF version, watch on [online slides][slides] 👈]
+
+[slides]: https://aboucaud.github.io/slides/2022/euclid-school-ml-cycle2
 
 ---
 class: middle
