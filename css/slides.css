@@ -31,12 +31,13 @@ ol li {
   line-height: 140%;
 }
 ul {
-    font-size: 100%;
+    font-size: 120%;
     line-height: 140%;
 }
+
 li {
-  font-size: 120%;
-  line-height: 160%;
+  font-size: 90%;
+  line-height: 140%;
 }
 p {
   font-size: 120%;
