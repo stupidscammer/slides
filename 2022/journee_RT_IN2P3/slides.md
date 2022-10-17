@@ -10,10 +10,8 @@ background-image: url(../img/brain.png)
 [alex]: mailto:aboucaud@apc.in2p3.fr
 [david]: mailto:rousseau@lal.in2p3.fr
 
-<!-- .footnote[<img src="http://www.apc.univ-paris7.fr/APC_CS/sites/default/files/logo-apc.png" height="100px" alt="Astroparticule et Cosmologie" style="float: left">] -->
 .bottomlogo[
   <img src="../img/in2p3-logo.png" height='100px' alt="Astroparticule et Cosmologie"> 
-  <!-- <img src="../img/vera_rubin_logo_horizontal.png" height='100px'> -->
 ]
 
 ---

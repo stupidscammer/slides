@@ -8,7 +8,9 @@ background-image: url(img/brain.png)
 
 [mail]: mailto:aboucaud@apc.in2p3.fr
 
-.footnote[<img src="http://www.apc.univ-paris7.fr/APC_CS/sites/default/files/logo-apc.png" height="100px" alt="Astroparticule et Cosmologie" style="float: left">]
+.footnote[
+  <img src="../img/apc_logo_transp.png" height="100px" alt="Astroparticule et Cosmologie" style="float: left">
+  ]
 
 ---
 
