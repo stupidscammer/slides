@@ -28,7 +28,8 @@ background-image: url(../img/brain.png)
 - un workshop annuel **ML @ IN2P3/IRFU**
   - [édition 2021][workshop21]
   - [.green[édition 2022]][workshop22] | [.green[webcast]][webcast22]
-- un site web : https://machine-learning.pages.in2p3.fr
+- un site web _(en construction)_
+  - https://machine-learning.pages.in2p3.fr
 
 
 [listeml]: mailto:machine-learning-l@in2p3.fr
@@ -54,17 +55,22 @@ envoyer des scientifiques IN2P3 aux .blue[**conférences spécialisées ML**]
 --
 
 .right-column[
+  .small[
 Ecoles
   - [ANF Machine Learning](https://webcast.in2p3.fr/container/machine-learning-pour-informaticiens) (2020)
   - [AstroInfo](https://astroinfo2021.sciencesconf.org/) (2021)
   - [School of Statistics](https://indico.in2p3.fr/e/SOS2022) (2022)
+
+Workshops
+  - [Learning to Discover](https://indico.ijclab.in2p3.fr/event/5999/) (Orsay, 2022)
+  - [Bayesian deep learning for cosmology](https://indico.in2p3.fr/event/26887/) (Paris, 2022)
 
 Conférences
 
 <img src="../img/neurips-logo.png" height="100px" />
 <img src="../img/aistats-logo.png" height="100px" />
 <img src="../img/icml-logo.svg" height="80px" />
-
+]
 ]
 
 ---
@@ -94,8 +100,9 @@ Conférences
 .green[**intérêt**] sans cesse .green[**grandissant**]
   - inscrits liste de diffusion ↗️ 40% depuis oct. 2021
 
-mise en place du .green[**site internet**]
-  - https://machine-learning.pages.in2p3.fr
+mise en place du .green[**site internet**] 
+
+.big.center[https://machine-learning.pages.in2p3.fr]
 
 
 ---
@@ -142,6 +149,25 @@ liste des publications construite à partir d'un fichier BibTeX
 
 ---
 
+# Semestre thématique AISSAI
+
+AISSAI est un [centre interdisciplinaire du CNRS][aissai] mis en place en 2021 pour encourager les échanges entre les domaines scientifiques utilisant le machine learning.
+
+Les moyens mis en place pour y parvenir sont principalement .green[des semestres thématiques] comprenant des écoles, ateliers, visites de professeurs/chercheurs.
+
+L'IN2P3 a été désignée pour organiser le 3e semestre thématique à l'automne 2023
+  - soutien à des écoles par labellisation (les Houches, AstroInfo, ...)
+  - travail en cours pour établir les thèmes des 3 workshops à organiser
+  - plus d'infos sur https://gitlab.in2p3.fr/machine-learning/aissai-semester
+
+.bottomlogo[
+  <img src="../img/aissai-logo.png" height='80px' alt="AISSAI"> 
+]
+
+[aissai]: https://www.cnrs.fr/fr/a-propos-du-centre-aissai
+
+---
+
 # Projets pour 2022/2023
 
 .blue[**finalisation collective**] du site web
@@ -155,26 +181,6 @@ organisation du .green[**semestre thématique AISSAI**] à l'automne 2023
 continuer la contribution aux workshops/écoles + envoi de physiciens aux conférences
 
 développer l'.blue[**accueil de visiteurs**] .small[(plusieurs expressions d'intérêt)]
-
-
----
-
-# Semestre AISSAI
-
-AISSAI est un [institut interdisciplinaire du CNRS][aissai] mis en place en 2021 pour encourager les échanges entre les domaines scientifiques utilisant le machine learning.
-
-Les moyens mis en place pour y parvenir sont principalement .green[des semestres thématiques] comprenant des écoles, ateliers, visites de professeurs/chercheurs.
-
-L'IN2P3 a été désignée pour organiser le 3e semestre thématique à l'automne 2023
-  - soutien à des écoles (les Houches, AstroInfo, ...)
-  - travail en cours pour établir les thèmes des 3 workshops à organiser
-  - plus d'infos sur https://gitlab.in2p3.fr/machine-learning/aissai-semester
-
-.bottomlogo[
-  <img src="../img/aissai-logo.png" height='80px' alt="AISSAI"> 
-]
-
-[aissai]: https://www.cnrs.fr/fr/a-propos-du-centre-aissai
 
 ---
 
