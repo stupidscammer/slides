@@ -161,7 +161,7 @@ développer l'.blue[**accueil de visiteurs**] .small[(plusieurs expressions d'in
 
 # Semestre AISSAI
 
-AISSAI est un [institut interdisciplinaire du CNRS](https://www.cnrs.fr/fr/a-propos-du-centre-aissai) mis en place en 2021 pour encourager les échanges entre les domaines scientifiques utilisant le machine learning.
+AISSAI est un [institut interdisciplinaire du CNRS][aissai] mis en place en 2021 pour encourager les échanges entre les domaines scientifiques utilisant le machine learning.
 
 Les moyens mis en place pour y parvenir sont principalement .green[des semestres thématiques] comprenant des écoles, ateliers, visites de professeurs/chercheurs.
 
@@ -173,6 +173,8 @@ L'IN2P3 a été désignée pour organiser le 3e semestre thématique à l'automn
 .bottomlogo[
   <img src="../img/aissai-logo.png" height='80px' alt="AISSAI"> 
 ]
+
+[aissai]: https://www.cnrs.fr/fr/a-propos-du-centre-aissai
 
 ---
 
