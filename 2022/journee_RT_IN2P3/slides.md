@@ -5,7 +5,7 @@ background-image: url(../img/brain.png)
 
 #### Journées R&T IN2P3 – 19 octobre 2022
 #### [Alexandre Boucaud][alex] (APC) & [David Rousseau][david] (IJCLab)
-#### https://machine-learning.pages.in2p3.fr
+#### https://machine-learning.in2p3.fr
 
 [alex]: mailto:aboucaud@apc.in2p3.fr
 [david]: mailto:rousseau@lal.in2p3.fr
@@ -29,7 +29,7 @@ background-image: url(../img/brain.png)
   - [édition 2021][workshop21]
   - [.green[édition 2022]][workshop22] | [.green[webcast]][webcast22]
 - un site web _(en construction)_
-  - https://machine-learning.pages.in2p3.fr
+  - https://machine-learning.in2p3.fr
 
 
 [listeml]: mailto:machine-learning-l@in2p3.fr
@@ -102,7 +102,7 @@ Conférences
 
 mise en place du .green[**site internet**] 
 
-.big.center[https://machine-learning.pages.in2p3.fr]
+.big.center[https://machine-learning.in2p3.fr]
 
 
 ---
